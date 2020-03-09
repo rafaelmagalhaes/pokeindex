@@ -1,0 +1,28 @@
+.pokemon__Cards {
+  transition: box-shadow 0.5s ease;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  height: 350px !important;
+  margin-bottom: 2rem;
+}
+.pokemon__Cards:hover {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.pokemon__Cards .card {
+  height: 100%;
+}
+.pokemon__Cards .card-title {
+  font-size: 19px;
+}
+.pokemon__Cards img {
+  padding-top: 1rem;
+  height: 230px;
+  object-fit: contain;
+}
+.pokemon__cards__href{
+    cursor: pointer;
+    color:black;
+}
+.pokemon__cards__href:hover{
+    color: black;
+}
