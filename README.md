@@ -1,3 +1,7 @@
+### Demo
+
+ https://pokeindex-6c29d.firebaseapp.com
+
 ### Summary
 
 A list page of all pokemon
@@ -5,7 +9,7 @@ A list page of all pokemon
 A pokemon detail page, showing a user all the pokemon goodness:
 Image of the pokemon
 
-A description
+- A description
 - Choose some of it's characteristics like: Stats, Abilities, Movements etc ... maximum 5
 
 An option to search from the list page, where we can search for different pokemons and show the result
