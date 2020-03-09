@@ -16,7 +16,7 @@ const receiveError = () => {
 const receivePokemons = data => {
   return {
     type: RECEIVE_POKEMONS,
-    pokemons: data
+    pokemons: data.results
   };
 };
 

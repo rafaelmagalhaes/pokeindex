@@ -36,7 +36,7 @@ const pokemons = (
     case RECEIVE_POKEMONS:
       return Object.assign({}, state, {
         isFetching: false,
-        pokemons: appendIds(action.pokemons.results)
+        pokemons: appendIds(action.pokemons)
       });
     case RECEIVE_SINGLE_POKEMON:
       return Object.assign({}, state, {
